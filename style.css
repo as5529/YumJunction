@@ -5,7 +5,7 @@
 }
 html {
   /*Percentage of the user browser font-size setting
-  10px / 16px = 0.625 = 62.5%*/
+  10px / 16px = 0.625 = 62.5% */
   font-size: 62.5%;
 }
 body {
@@ -15,7 +15,7 @@ body {
   color: #555;
 }
 /*********************/
-/* GENERAL REUSABLE COMPONENTS*/
+/* GENERAL REUSABLE COMPONENT'S*/
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
