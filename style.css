@@ -5,7 +5,7 @@
 }
 html {
   /*Percentage of the user browser font-size setting
-  10px / 16px = 0.625 = 62.5% */
+  10px / 16px = 0.625 = 62.5%*/
   font-size: 62.5%;
 }
 body {
@@ -15,7 +15,7 @@ body {
   color: #555;
 }
 /*********************/
-/* GENERAL REUSABLE COMPONENT'S*/
+/* GENERAL REUSABLE COMPONENTS*/
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -399,4 +399,30 @@ strong {
 }
 .center-text {
   align-items: center;
+}
+
+/**********************/
+/* TESTIMONIALS SECTION*/
+/*********************/
+.section-testimonials {
+  padding: 9.6rem 0;
+}
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+}
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #777;
 }
