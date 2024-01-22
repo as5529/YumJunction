@@ -150,7 +150,7 @@ strong {
 .list-item {
   font-size: 1.8rem;
   display: flex;
-  align-item: center;
+  align-items: center;
   gap: 1.6rem;
 }
 
@@ -545,4 +545,80 @@ strong {
 .plan-sign-up {
   margin-top: 4.8rem;
   text-align: center;
+}
+
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/*********************/
+/*  FEATURE SECTION */
+/*******************/
+.feature-icon {
+  color: #64a707;
+  height: 3.2rem;
+  width: 3.2rem;
+  background-color: #f4fce3;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin: bottom 1.6rem;
+}
+.grid-fea {
+  .grid {
+    display: grid;
+    column-gap: 6.4;
+    gap: 9.6rem;
+    /* grid-template-columns: 1fr 1fr;*/
+    margin-bottom: 9.6rem;
+    /*align-items: center;*/
+  }
+}
+
+/*********************/
+/*  CTA SECTION */
+/*******************/
+.section-cta {
+  padding: 9.6rem;
+}
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /*Here 2fr means the first div will have 2/3rd of the sapce and the second div will have 1/3rd of the div*/
+  /*background-color: #74b816;*/
+  box-shadow: 0 2.4rem 4.8rem #919090ab;
+  height: 50rem;
+  border-radius: 10px;
+  /*For gradient we use the background-image:linear-gradient and then we can specify two color*/
+  background-image: linear-gradient(
+    to right bottom,
+    hsl(85, 53%, 64%),
+    #75b816
+  );
+  overflow: hidden;
+}
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      hsla(85, 53%, 64%, 0.271),
+      hsla(85, 79%, 40%, 0.259)
+    ),
+    url("../img/eating.jpg");
+  /*../ means going to the parent folder*/
+
+  background-size: cover; /*This will help the image to cover everything so basically be on the top*/
+
+  background-position: center;
+}
+.cta-text-box {
 }
